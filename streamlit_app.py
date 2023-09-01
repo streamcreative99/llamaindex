@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Initialize Streamlit
-st.title("OpenAI API Key Test")
+st.title("OpenAI API Key Test with Davinci Model")
 
 # Load the API key from Streamlit's secrets
 if 'OPENAI_API_KEY' in st.secrets:
@@ -11,11 +11,11 @@ if 'OPENAI_API_KEY' in st.secrets:
 else:
     st.sidebar.error('Failed to load API key from secrets!')
 
-# Test the OpenAI API with a simple completion
+# Test the OpenAI API with a simple completion using davinci model
 def test_openai_api():
     try:
         response = openai.Completion.create(
-          engine="gpt-3.5-turbo",
+          engine="davinci",
           prompt="Translate the following English text to French: 'Hello World'",
           max_tokens=60
         )
