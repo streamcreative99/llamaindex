@@ -5,7 +5,13 @@ import openai
 from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
-openai.api_key = st.secrets.openai_key
+
+# Error handling for the missing API key
+try:
+    openai.api_key = st.secrets['openai_key']
+except KeyError:
+    st.error("OpenAI key not found in secrets!")
+
 st.title("Chat with the Streamlit docs, powered by LlamaIndex 💬🦙")
 st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
          
@@ -24,7 +30,6 @@ def load_data():
         return index
 
 index = load_data()
-# chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True, system_prompt="You are an expert on the Streamlit Python library and your job is to answer technical questions. Assume that all questions are related to the Streamlit Python library. Keep your answers technical and based on facts – do not hallucinate features.")
 chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True)
 
 if prompt := st.chat_input("Your question"): # Prompt for user input and save to chat history
