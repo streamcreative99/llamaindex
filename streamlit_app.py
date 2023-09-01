@@ -6,10 +6,9 @@ st.title("OpenAI API Key Test with Davinci Model")
 
 # Load the API key from Streamlit's secrets
 if 'OPENAI_API_KEY' in st.secrets:
-    openai.api_key = st.secrets['OPENAI_API_KEY']
     st.sidebar.success('API key successfully loaded from secrets!')
 else:
-    st.sidebar.error('Failed to load API key from secrets!')
+    st.sidebar.error('Failed to load API key from secrets.')
 
 # Test the OpenAI API with a simple completion using davinci model
 def test_openai_api():
