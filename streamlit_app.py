@@ -6,11 +6,16 @@ from llama_index import SimpleDirectoryReader
 
 st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-# Error handling for the missing API key
-try:
-    openai.api_key = st.secrets['openai_key']
-except KeyError:
-    st.error("OpenAI key not found in secrets!")
+# Check for OpenAI API Key in Streamlit's secrets
+if 'OPENAI_API_KEY' in st.secrets:
+    st.sidebar.success('API key successfully loaded from secrets!', icon='✅')
+    openai_api_key = st.secrets['OPENAI_API_KEY']
+else:
+    openai_api_key = st.sidebar.text_input('Enter OpenAI API Key:', type='password')
+    if not openai_api_key.startswith('sk-'):
+        st.sidebar.warning('Please enter your OpenAI API key!', icon='⚠')
+
+openai.api_key = openai_api_key
 
 st.title("Chat with the Streamlit docs, powered by LlamaIndex 💬🦙")
 st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
