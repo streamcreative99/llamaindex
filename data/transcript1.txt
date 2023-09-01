@@ -1,0 +1,271 @@
+UNDERSTANDING MARKETING HUB
+Video 1: Why is Marketing Hub Important for an Inbound Business?
+Hey there, it's Kara from the HubSpot Academy team.
+Learning new software tools can be challenging. If you're new to the HubSpot
+platform, you might find yourself asking, "What's Marketing Hub?".
+First, a HubSpot HUB is a group of tools in a related area of work.
+Thus, Marketing Hub offers marketing and automation tools. It helps you attract the
+right audience, convert more visitors into customers, and run complete inbound
+marketing campaigns at scale. At a high level, you can use Marketing Hub to host and
+optimize traffic to your website, nurture your contacts through tailored web and email
+channels, and manage authentic relationships using segmentation and automation
+tools.
+So why is this important for an inbound business?
+The inbound methodology can be broken down into three stages: attract, delight,
+and engage.
+In the attract stage, the goal is to draw in the right people with valuable content and
+conversations. In the engage stage, the purpose is to present insights and solutions
+that align with a lead's pain points and goals so they're more likely to buy from you. In
+the delight stage, the goal is to provide help and support that empowers your
+customers to find success with their purchase.
+With Marketing Hub, you can tackle each of these stages all in one easy-to-use
+platform.
+Attract the right audience using Marketing Hub's blog, SEO, ads, social media, video,
+and live chat features. You can engage and convert more leads with landing pages,
+forms, marketing automation, email marketing, and lead management features.
+Delight your customers with smart content, automated emails, and the conversation
+inbox.
+But developing effective marketing campaigns is only one aspect to growing your
+inbound business. While Marketing Hub is just as powerful alone, the real magic
+1
+
+happens when you use it with HubSpot's other software, such as Sales Hub, Service
+Hub, CMS Hub, and Operations Hub.
+All of these Hubs are supported by HubSpot's CRM. The CRM stores all of your
+business' information such as, contacts, companies, deals, tickets, and tasks.
+Essentially, the CRM serves as a single source of truth between Hubs.
+This structure eliminates the need for complicated tool integrations and makes
+reporting on your overall marketing success feel seamless.
+For example, a new contact could be created manually by a sales rep or through a
+support ticket form submission. This contact's information and activity history will
+then show in the shared CRM database. As a result, your marketing team can engage
+with that contact in the most effective way by using the information stored in the
+CRM.
+Having shared information helps align data across your company and have more
+meaningful conversations with your contacts. Marketing Hub provides everything you
+need to create effective inbound marketing campaigns, and ultimately, happy
+customers.
+
+Video 2: How to Navigate Marketing Hub
+With Marketing Hub, you have the tools needed to launch effective marketing
+campaigns that attract, engage, and delight your customers. Let's take a closer look
+at what these are, but keep in mind, these may vary by subscription.
+Effective lead segmentation and nurturing is at the core of every marketer's strategy.
+To access the tools that support these functions, navigate to the Contacts dropdown
+menu and select Contacts.
+Here, you'll see a list of your leads and their data, shown as contact records. If you
+click into a record, you'll find information, like their name, email address,
+documentation of each interaction you've had with them, and more.
+Using this information, you can segment these contacts into lists. To access your Lists
+tool, navigate to the Contacts dropdown menu again and select Lists. Here, you'll
+find your existing lists, as well as the ability to create new ones. By using lists, you can
+create hyper-targeted segments to help deliver your content to the right people, at
+the right time.
+2
+
+But how will you deliver this content? That's where your other Marketing Hub tools
+can help. Navigate to the Marketing dropdown menu to find the tools you need to
+attract, engage, and delight your customers.
+Select Ads if you're looking to build and manage a new ad campaign for Facebook,
+Instagram, LinkedIn, or Google.
+Click Email to build personalized emails that help engage and nurture your leads,
+without needing a designer or IT.
+Click Landing Pages to build and launch conversion-focused pages for your website
+that will convert more visitors into leads.
+Select Social if you're looking to manage and publish your social media content all
+from one tool, for Facebook, Instagram, Twitter, and LinkedIn.
+You can also use Marketing Hub to optimize your website and start building your
+online authority. Hover over Website and click Website Pages to drag and drop
+your way to a polished design, select Blog to write and publish new content, or
+choose SEO to get real-time suggestions to optimize your website for search engine
+results pages.
+To organize your marketing assets and make it easier to measure the effectiveness of
+your campaigns, select Campaigns.
+Hover over Files and Templates and click Design Tools for additional
+customizations for your web pages and emails. Select Files to upload and store any
+documents or multimedia, and choose HubDB to store, filter, and display data
+dynamically on your web pages.
+To generate more leads, consider our lead capture options. Hover over Lead
+Capture and select CTAs to build effective calls-to-action buttons, or select Forms to
+design conversion-focused forms that help you capture leads.
+Next, navigate to the Automation dropdown menu and select Workflows. By using
+Workflows, you can create lead nurture or drip campaigns and queue a series of
+emails that deliver information specific to each lead or list, helping them convert to
+customers.
+Finally, see how all of your marketing activities are performing with the Marketing
+Hub reporting tools. Navigate to the Reports dropdown menu and select Analytics
+tools. Here, you can explore different marketing trends, like traffic, ads, clicks, and
+more.
+3
+
+Navigate back to Reports in your menu and select Dashboards. Here, you will find an
+overview of the most important reports you selected to view, all in one place.
+Navigate to your menu one more time, select Reports, and then Reports again. This
+is where you will find and create custom reports that analyze the marketing efforts
+most relevant to you.
+And there you have it! With Marketing Hub, you have the tools to attract the right
+visitors to your website, engage and nurture your contacts through tailored web and
+email content channels, and manage personalized relationships at scale using
+segmentation and automation tools.
+
+Video 3: How to Use Marketing Hub as an All-in-one Toolset
+Let’s discuss how the Marketing Hub tools work together as an all-in-one toolset so
+you can maximize your value.
+Because Marketing Hub is intended to help you achieve your marketing goals
+holistically, you'll be able to use the tools as one connected unit without needing to
+spend time translating metrics or exporting data across systems.
+For example, what if you wanted to know which of your blog posts were the most
+successful at handing off traffic to a form conversion?
+Without Marketing Hub, reporting on that metric might involve several different
+platforms to create the blog post, the form, the landing page, and a system to report
+on all of it. Because all those assets are controlled and managed in Marketing Hub,
+your blog performance reports will show you which posts get the most traffic right
+alongside the report that ties posts to conversions, with no extra work on your part.
+You can accomplish a wide range of marketing productivity all within your Marketing
+Hub given the breadth of its tools.
+Here are a few examples of Marketing Hub projects you might choose to implement
+over the next few months:
+•
+•
+•
+•
+•
+
+An educational eBook offer
+A gift raffle for customer survey submissions
+Automated post-purchase customer reselling
+A holiday special e-commerce discount
+An educational webinar static-date event
+4
+
+One last thing to consider with an all-in-one toolset is that you'll get the most value
+when you're using all the tools together rather than using some and not others. To
+illustrate, what if we took the earlier example of wanting to track which blog posts
+lead to conversions?
+If you were not using the HubSpot blog and were instead hosting your blog outside
+of HubSpot then you would also be passing up on using the HubSpot blog specific
+reports and the blog portion of the HubSpot campaign tool, making your campaign
+reporting experience less comprehensive.
+In short, the more completely you use the Hub, the better the individual tools can
+help you.
+
+Video 4: How to Use Marketing Hub to Achieve Your Goals
+Perhaps you understand what tools comprise Marketing Hub and what kinds of
+projects could be achieved with your tools, but how do you go about deciding what
+to work on next?
+Before making plans, it's important to understand the business goals you're
+responsible for achieving, and the indicators you're tracking to help meet those
+goals. It may be partially accurate to say "we need to make more money" as your
+primary business goal, but to create actionable next steps, you want to be a bit more
+specific in what you define as a goal, as well as the metrics that track your progress.
+Once you have your business goals and indicators defined, also called key
+performance indicators, or KPIs for short, you can begin to work on creating specific
+short-term productivity goals focused on hitting your KPIs, and consequently
+contribute to the larger business goals.
+In short, we’re talking about taking something very big and breaking it down into
+bite-sized components that you can focus on in the short-term.
+Setting goals and creating KPIs to keep your marketing efforts on track is something
+that should involve more than just yourself. It will need to be explored on an ongoing
+basis to ensure you have input and agreement from your related teams.
+The business goals you select with your team will dictate which indicators you report
+on. The indicators will dictate the tactics you use to launch your campaign. When
+you're using Marketing Hub, your indicators will likely include improving the
+following three metrics: driving more monthly website traffic, increasing the rate of
+5
+
+visitors you convert to contacts, and nurturing contacts so that they can be handed off
+to the sales team at a higher rate.
+Having said that, you'll want to do the following three things to ensure your goals are
+set reasonably and accurately:
+1. Identify current performance in your marketing efforts before setting new KPI
+targets.
+2. Determine where you have gaps in your marketing process or content to
+identify areas of opportunity.
+3. Create detailed marketing productivity plans to systematically address your
+marketing opportunities.
+Let’s start with the first part: identifying your performance baseline to set reasonable
+goals.
+Once you identify your current performance for your KPIs, you can then move on to
+determine what is a reasonable new target number that would improve your
+performance in an achievable increment.
+To give you an example, if you are currently getting 1,000 website visitors each
+month then you wouldn't set a KPI goal of six months from now driving 10,000 visitors
+each month - that would be astonishing! Of course, each organization has different
+circumstances, but if you improved your current number by about 10% each month
+then in six months, you'd have a much more realistic target of driving about 1,800
+visitors a month, which is still fairly aggressive growth!
+Next, you’ll need to understand where you have gaps in your marketing strategy that
+represent areas of opportunity for your organization.
+Let's do a quick audit together by reviewing the following questions:
+•
+•
+•
+•
+
+Do you need to convert traffic on your site to known contacts at a higher rate?
+Are you converting website visitors, and would like to increase your traffic
+overall?
+Are you converting contacts from your website traffic, and need to follow-up
+with their engagement in a timely and personalized way?
+Are there contacts in your database that could purchase from you (or purchase
+again) that have not received a reach-out in the last 6 months?
+
+6
+
+These questions are a simple starting point for determining where in your marketing
+process you may have an opportunity for improvement, and are arranged in the
+order that generally aligns with the logical order of priority for most marketing teams.
+Now you can move on to the last step of creating your next marketing project plan
+with a prioritized approach.
+For each of the four questions, here are some general productivity ideas you can
+work on with your team to address the area of opportunity corresponding to each
+question.
+For the first area of opportunity - converting traffic - you'll want to think about the
+ease of access visitors have to engage with you or your team through your website.
+Do you have many places where a contact might submit their email and one or two
+qualifying questions?
+To increase conversion through your website you could release a content offer
+campaign focused on delivering value to your website visitors in exchange for their
+contact information.
+Say you plan to produce your downloadable asset in two weeks, create your
+promotional blog post, social posts, and email content in two weeks, and schedule
+your promotional content to be spread out over the four weeks following your
+launch.
+The expected KPI result may be something along the lines of 200 views of your
+landing page after a month of promotion with a 25% conversion of traffic on that
+page.
+For the second area of opportunity around increasing overall website traffic, one
+project you’ll want to consider is launching or optimizing your blog content using the
+Content Strategy and SEO tools.
+Perhaps you decide that your team will plan to optimize 100 posts over the next
+month to improve the content and satisfy the optimization checklist in your blogging
+tool, republish those posts, and share through social media.
+The intended KPI result may be an increase in traffic to those 100 posts after a month
+of promotion by 5% or more.
+For the third question about following-up with your form submissions, you may want
+to create automated workflow responses to existing form submissions.
+7
+
+It's important to tailor your follow-up email content to the context of what the visitor
+engaged with or submitted through a form to create a personalized experience
+despite your automated delivery.
+In this case, you may have a productivity goal to create five follow-up emails for 10 of
+your website forms over the next month.
+The intended result may be that each workflow succeeds in driving 5% of workflow
+enrollees to take the main action that your workflow emails promote.
+For the fourth question about reaching out to existing contacts, you may consider a
+re-engagement qualifying campaign for contacts who you need either more
+information or more engagement from in order to consider them qualified to speak
+with sales.
+Here you could launch a limited-time content offer like a webinar, which you promote
+to your existing contacts.
+Your intended outcome may be to have 20% of your contacts who view your webinar
+registration page sign-up, and 50% of those people attend.
+These are some simple, short-term project ideas you can implement using Marketing
+Hub, but the process for setting and working towards achievable goals with your
+team should be an ongoing and transparent process. For now, best of luck
+identifying your next project that you can implement with Marketing Hub.
+
+8
+
+
