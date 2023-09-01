@@ -1,4 +1,2 @@
 streamlit==latest
 openai
-llama-index
-nltk
