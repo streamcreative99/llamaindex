@@ -1,26 +1,29 @@
 import streamlit as st
 import openai
 
-# Set the OpenAI API key
-openai.api_key = st.secrets["OPENAI_API_KEY"]
+def set_openai_key():
+    openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-def test_openai_api():
+def generate_short_story(prompt):
     try:
         response = openai.Completion.create(
-            engine="gpt-3.5-turbo",  # Using gpt-3.5-turbo
-            prompt="Translate the following English text to French: 'Hello, how are you?'",
-            max_tokens=60
+            engine="gpt-3.5-turbo",
+            prompt=prompt,
+            max_tokens=200  # Increase tokens to get a longer story
         )
-        return response.choices[0].text.strip()
+        return response.choices[0].text.strip(), None
     except Exception as e:
-        return str(e)
+        return None, str(e)
 
-st.title("OpenAI API Key Test with GPT-3.5 Turbo Model")
+st.title("OpenAI API Test with GPT-3.5 Turbo Model for Story Generation")
 
-result = test_openai_api()
+set_openai_key()
 
-if "Translate the following English text to French:" in result:
-    st.write("API test passed!")
-    st.write(result)
+prompt = "Once upon a time in a land far, far away..."
+story, error = generate_short_story(prompt)
+
+if error:
+    st.write(f"API test failed. Error: {error}")
 else:
-    st.write("API test failed. Error:", result)
+    st.write("API test passed!")
+    st.write(prompt + story)
