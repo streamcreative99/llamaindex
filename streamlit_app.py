@@ -9,8 +9,8 @@ st.set_page_config(page_title="Chat with the Streamlit docs, powered by LlamaInd
 # Set the OpenAI API key based on our previous discussion
 openai.api_key = st.secrets["OPENAI_API_KEY"]
 
-st.title("Chat with the Streamlit docs, powered by LlamaIndex 💬🦙")
-st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
+st.title("Chat with the Hubspot docs, powered by LlamaIndex 💬🦙")
+# st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
@@ -22,7 +22,7 @@ def load_data():
     with st.spinner(text="Loading and indexing the docs – hang tight! This should take 1-2 minutes."):
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="You are a Hubspot Academy educator. Assume I'm taking a test. When I input questions they will be in the form of multiple choice, please select the best answer from what I provide. If I say 'True or False' assume what I mean is 'I'd like you to determine if the following statement is either true or false' and give me your reply by simply stating either 'True' or 'False'."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="You are assisting me with a test. For multiple choice questions, select and provide the best answer from the options I give. If I specify 'True or False', determine the veracity of the statement and respond only with 'True' or 'False'."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
 
