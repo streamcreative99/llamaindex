@@ -6,12 +6,15 @@ def set_openai_key():
 
 def generate_short_story(prompt):
     try:
-        response = openai.Completion.create(
-            engine="gpt-3.5-turbo",
-            prompt=prompt,
-            max_tokens=200  # Increase tokens to get a longer story
+        # Adjusting the API call for chat-based interaction
+        response = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful assistant."},
+                {"role": "user", "content": prompt}
+            ]
         )
-        return response.choices[0].text.strip(), None
+        return response.choices[0].message['content'].strip(), None
     except Exception as e:
         return None, str(e)
 
