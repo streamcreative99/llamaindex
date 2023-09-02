@@ -7,7 +7,7 @@ openai.api_key = st.secrets["OPENAI_API_KEY"]
 def test_openai_api():
     try:
         response = openai.Completion.create(
-            engine="davinci",
+            engine="gpt-3.5-turbo",  # Using gpt-3.5-turbo
             prompt="Translate the following English text to French: 'Hello, how are you?'",
             max_tokens=60
         )
@@ -15,7 +15,7 @@ def test_openai_api():
     except Exception as e:
         return str(e)
 
-st.title("OpenAI API Key Test with Davinci Model")
+st.title("OpenAI API Key Test with GPT-3.5 Turbo Model")
 
 result = test_openai_api()
 
