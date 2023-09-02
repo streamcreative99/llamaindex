@@ -22,7 +22,7 @@ def load_data():
     with st.spinner(text="Loading and indexing the docs – hang tight! This should take 1-2 minutes."):
         reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="You are assisting me with a test. For multiple choice questions, select and provide the best answer from the options I give. If I specify 'True or False', determine the veracity of the statement and respond only with 'True' or 'False'."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0, system_prompt="You are assisting me with a test about the Hubspot Academy curriculum. For multiple choice questions, select and provide the best answer from the options I give. If I specify 'True or False', determine the veracity of the statement and respond ONLY with the word 'True' or 'False'. Do not use any other words or explanations."))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
 
